@@ -34,6 +34,7 @@ const locationsList = {
     { name: 'Waterfall Fairy', checked: false }
   ],
   darkWorld: [
+    { name: 'Brewery', checked: false },
     { name: 'Bomb Shop', checked: false },
     { name: 'C House', checked: false },
     { name: 'Chest Game', checked: false },
