@@ -1,7 +1,8 @@
 .App {
   text-align: center;
+  
 }
-
+body{background-color: #262626; padding: 10px}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +27,79 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.wrapper{display: flex; flex-wrap: wrap;}
+
+.dropdownsUnchecked{
+  /* background-color: rebeccapurple; */
+  background-color: #765c36;
+  color: #b5ba97
+  
+}
+.dropdownsChecked{
+  /* background-color: #3b3244; */
+  background-color: #352f27;
+  color: #787a6a
+}
+
+.lightWorldUnchecked{
+  /* background-color: #233c8f; */
+  background-color: #36763c;
+  color: #b5ba97
+}
+
+.lightWorldChecked{
+  /* background-color: #2d344b; */
+  background-color: #283629;
+  color: #787a6a
+}
+
+.dropDownsWrapper, .lightWorldWrapper{
+  width: auto;
+}
+
+.connectorsUnchecked {
+  background-color: #366576;
+  /* background-color: #442a57; */
+  color: #b5ba97
+}
+
+.connectorsChecked {
+  /* background-color: #37474d; */
+  background-color: #283236;
+  color: #787a6a
+}
+
+.darkWorldUnchecked {
+  /* background-color: #456528; */
+  background-color: #3c3676;
+  color: #b5ba97
+}
+
+.darkWorldChecked {
+  /* background-color: #343c2d; */
+  background-color: #292836;
+  color: #787a6a
+}
+
+.dropDownsWrapper div, .lightWorldWrapper div, .wrapper div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 2px;
+  border: 0;
+}
+
+button{
+  border: 0;
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+  margin: 2px;
 }
 
 @keyframes App-logo-spin {
