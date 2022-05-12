@@ -34,6 +34,7 @@ const locationsList = {
   ],
   darkWorld: [
     { name: 'Bomb Shop', checked: false },
+    { name: 'Brewery', checked: false },
     { name: 'C House', checked: false },
     { name: 'Chest Game', checked: false },
     { name: 'Hammer Pegs', checked: false },
