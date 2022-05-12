@@ -30,11 +30,9 @@ const locationsList = {
     { name: 'Sahasrahla', checked: false },
     { name: 'Sick Kid', checked: false },
     { name: 'Smith', checked: false },
-    { name: 'Specatcle Cave', checked: false },
     { name: 'Waterfall Fairy', checked: false }
   ],
   darkWorld: [
-    { name: 'Brewery', checked: false },
     { name: 'Bomb Shop', checked: false },
     { name: 'C House', checked: false },
     { name: 'Chest Game', checked: false },
@@ -55,9 +53,14 @@ const locationsList = {
     { name: 'Hookshot Cave Back', checked: false },
     { name: 'Old Man Front', checked: false },
     { name: 'Old Man Back', checked: false },
+    { name: 'Old Man Rescue Front', checked: false },
+    { name: 'Old Man Rescue Back', checked: false },
     { name: 'Paradox Cave Top', checked: false },
     { name: 'Paradox Cave Middle', checked: false },
     { name: 'Paradox Cave Bottom', checked: false },
+    { name: 'Specatcle Cave Top', checked: false },
+    { name: 'Specatcle Cave Bottom', checked: false },
+    { name: 'Specatcle Cave Middle', checked: false },
     { name: 'Spiral Cave Top', checked: false },
     { name: 'Spiral Cave Bottom', checked: false },
     { name: 'Supper Bunny Top', checked: false },
@@ -101,7 +104,8 @@ function App() {
           onClick={() => {
             handleClick(locationType, index);
           }}
-          className={location.checked ? checkedClass : uncheckedClass}>
+          className={location.checked ? checkedClass : uncheckedClass}
+        >
           {location.name}
         </button>
       );
